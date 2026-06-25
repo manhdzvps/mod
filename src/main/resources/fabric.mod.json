@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "kingmc-addon",
+  "version": "${version}",
+  "name": "KingMC Addon",
+  "description": "Meteor Client addon for KingMC server",
+  "authors": ["manhdzvps"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.manhdzvps.addon.KingMCAddon"
+    ]
+  },
+  "mixins": [
+    "kingmc-addon.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "meteor-client": "*"
+  }
+}
