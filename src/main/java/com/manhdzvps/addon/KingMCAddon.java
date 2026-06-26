@@ -17,4 +17,9 @@ public class KingMCAddon extends MeteorAddon {
     public String getPackage() {
         return "com.manhdzvps.addon";
     }
+
+    @Override
+    public void onRegisterCategories() {
+        MeteorAddon.registerCategory(KingMCAddonCategory.CATEGORY);
+    }
 }
