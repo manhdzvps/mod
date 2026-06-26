@@ -9,7 +9,7 @@
   "license": "MIT",
   "environment": "client",
   "entrypoints": {
-    "client": [
+    "meteor": [
       "com.manhdzvps.addon.KingMCAddon"
     ]
   },
